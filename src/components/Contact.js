@@ -9,6 +9,10 @@ const Contact = () => {
         <input type="text" placeholder="yourmail@gmail.com" />
         <button className="secondary-button">Submit</button>
       </div>
+      <div className="questions">
+      <p> We aim to respond to your inquiry within 48 hours of receiving it. </p>
+      <p> If you have urgent questions or concerns, please feel free to give us a call for immediate assistance. </p>
+      </div>
     </div>
   )
 }

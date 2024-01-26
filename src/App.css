@@ -20,7 +20,7 @@ body {
 }
 
 .nav-logo-container img {
-    width: 200px;
+    width: 180px;
 }
 
 nav {
@@ -91,7 +91,7 @@ nav {
 
 
 .home-image-section img {
-    max-width: 450px;
+    max-width: 500px;
     flex: 1;
   }
 
@@ -144,7 +144,7 @@ nav {
 }
 
 .about-section-container {
-    margin-top: 5rem;
+    margin-top: 2rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -154,6 +154,10 @@ nav {
 .about-section-image-container {
     flex: 0.9;
     margin-right: 1rem;
+}
+
+.about-background-image-container img {
+    width: 500px;
 }
 
 
@@ -186,112 +190,15 @@ nav {
 
 .watch-video-button svg {
     font-size: 3rem;
-    margin-right: 1 rem;
+    margin-right: 1rem;
 }
 
-.contact-page-wrapper h1 {
-    max-width: 900px !important;
-}
-
-.contact-page-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 6rem 0rem;
-}
-
-.contact-form-container {
-    background-color: white;
-    max-width: 700px;
-    width: 100%;
-    margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    border-radius: 5rem;
-}
-
-.footer-wrapper {
-    margin: 6rem 0rem;
-    display: flex;
-    margin-top: 10rem;
-}
-
-.footer-logo-container {
-    max-width: 110px;
-}
-
-.footer-icons {
-    margin-top: 2.5rem;
-}
-
-.footer-icons svg {
-    font-size: 1.5rem;
-    margin-right: 1.25rem;
-    color: #585858;
-}
-
-.footer-section-two {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.footer-section-columns {
-    display: flex;
-    flex-direction: column;
-    min-width: 190px;
-}
-
-.footer-section-columns span {
-    margin: 0.25rem 0rem;
-    font-weight: 600;
-    color: #4c4c4c;
-    cursor: pointer;
-}
-
-.testimonial-section-bottom {
-    margin-top: 2rem;
-    background-color: white;
-    padding: 1.5rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 750px;
-    border-radius: 2rem;
-    flex-direction: columns;
-    text-align: center;
-}
-
-.testimonial-section-bottom {
-    margin: 2rem auto;
-}
-
-.testimonial-section-bottom p {
-    font-weight: 700;
-    color: #515151;
-    max-width: 500px;
-    font-size: 1.1rem;
-    margin: 2rem 0rem;
-}
-
-.testimonials-stars-container svg {
-    margin: 0rem 0.25rem;
-    font-size: 1.5rem;
-    color: rgb(126, 209, 101);
-}
-
-.testimonial-section-bottom h2 {
-    margin-top: 1.5rem;
-}
 
 .work-section-wrapper {
-    margin-top: 15rem;
+    margin-top: 2rem;
 }
 
 .work-section-top p {
-    text-align: center;
     max-width: 600px !important;
 }
 
@@ -326,11 +233,9 @@ nav {
 }
 
 .work-section-bottom {
-    margin-top: 5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
 .work-section-info p {
@@ -339,6 +244,206 @@ nav {
     align-items: center;
     font-weight: 600;
 }
+
+
+.testimonial-section-wrapper {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.testimonial-section {
+    margin-top: 15rem;
+    background-color: white;
+    padding: 1.5rem 2rem;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 2rem;
+}
+
+
+.testimonials-review-container {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    background-color: #f3c177;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    height: 180px;
+
+}
+
+
+.testimonial-section {
+    margin: 2rem;
+}
+
+.testimonial-section img {
+    width: 50px;
+}
+
+.testimonial-section p {
+    font-weight: 600;
+    color: #515151;
+    font-size: 1rem;
+}
+
+
+.testimonials-review-container svg {
+    font-size: 1.5rem;
+    color: rgb(46, 126, 22);
+}
+
+.testimonial-section h2 {
+    font-size: 1rem;
+}
+
+
+.contact-page-wrapper h1 {
+    max-width: 900px !important;
+}
+
+.contact-page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+
+}
+
+.contact-form-container {
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.contact-form-container input {
+    margin-left: 3rem;
+    width: 75%;
+}
+.contact-form-container button {
+    margin-left: 5rem;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.gallery img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5px;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #333;
+    z-index: 1
+}
+
+.btn-left {
+   margin-right: 35rem;
+   top: 50%;
+   transform: translateY(-50%);
+   color: rgb(46, 126, 22);
+   font-size: 3rem;
+}
+
+.btn-right {
+    margin-left: 35rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(46, 126, 22);
+    font-size: 3rem;
+}
+
+
+
+.questions {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer-logo-container {
+    max-width: 110px;
+}
+
+.footer-logo-container img {
+    width: 150px; 
+}
+
+
+.footer-section-two {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-section-columns {
+    display: flex;
+    flex-direction: column;
+    min-width: 190px;
+}
+
+.footer-section-columns span {
+    justify-content: space-evenly;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+    font-weight: 600;
+    color: #4c4c4c;
+    cursor: pointer;
+}
+
+.one {
+    margin-left: 5rem;
+}
+
+.two {
+    margin-left: 1rem;
+}
+
+.three {
+    margin-left: 5rem;
+}
+
+.social-icons {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.social-icons svg {
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+    color: #585858;
+}
+
+
 
 @media (max-width: 1000px) {
     .navbar-links-container a {

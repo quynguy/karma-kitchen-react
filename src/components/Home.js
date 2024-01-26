@@ -12,6 +12,7 @@ const Home = () => {
           {/* <img src={BannerBackground} alt="" /> */}
         </div>
         <div className="home-text-section">
+          <p className="primary-subheading">Welcome</p>
           <h1 className="primary-heading">
           Bursting with flavor and designed to delight every guest.
           </h1>
