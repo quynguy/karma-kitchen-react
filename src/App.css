@@ -443,6 +443,9 @@ nav {
     color: #585858;
 }
 
+.developer p {
+    font-size: 1rem;
+}
 
 
 @media (max-width: 1000px) {

@@ -28,6 +28,10 @@ const Footer = () => {
           <span>order@karmakitchen.come</span>
           <span>planning@karmakitchen.com</span>
           <span>admin@karmakitchen.com</span>
+
+          <div className="developer">
+          <p> created by quynguy || all rights reserved </p>
+          </div>
         </div>
         <div className="footer-section-columns three">
           <span>Terms and Conditions</span>
@@ -39,8 +43,10 @@ const Footer = () => {
           <span><BsYoutube /></span>
           <span><FaFacebookF /></span>
           </div>
+      
         </div>
       </div>
+
     </div>
   );
 };
