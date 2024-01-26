@@ -1,10 +1,10 @@
 <center>
 Creating a landing page for my faux restaurant "Karma Kitchen" using React Create App, a place to purchase Buddha bowls for parties.
-  <br>
+  <br> <br>
 This challenge was enjoyable, and I'm excited to include it in my portfolio. Practicing React daily boosts my confidence as a developer and enhances my skills.
-<br>
+<br> <br>
 Here's some sneak peeks before deployment. 
-<br>
+<br> <br>
 Nav & Home <br>
 ![image](https://github.com/quynguy/landing-page-react-js/assets/106893103/b0176345-971d-4980-b2a3-dd39831955d4)
 
@@ -14,6 +14,7 @@ About <br>
 
 <br>
 Steps <br>
+![image](https://github.com/quynguy/landing-page-react-js/assets/106893103/965364ef-0cbb-4fc0-b689-b1835903e5d3)
 
 <br>
 Reviews <br>
