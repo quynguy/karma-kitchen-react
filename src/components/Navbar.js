@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Logo from '../assets/Karma-Kitchen-Logo.png'
 
 /* icons from react & mui */
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -24,37 +23,54 @@ const Navbar = () => {
     {
       text: "Home",
       icon: <HomeIcon />,
+      href: "#home",
     },
     {
       text: "About",
       icon: <InfoIcon />,
+      href: "#about",
     },
     {
       text: "Testimonials",
       icon: <CommentRoundedIcon />,
+      href: "#testimonials",
     },
     {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
+      href: "#contact",
     },
     {
       text: "Cart",
       icon: <ShoppingCartRoundedIcon />,
+      href: "#cart",
     },
   ];
+
+  const handleSmoothScroll = (id) => {
+    const element = document.querySelector(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <nav>
       <div className="nav-logo-container">
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="/Home">Home</a>
-        <a href="/About">About</a>
-        <a href="/Testimonials">Testimonials</a>
-        <a href="/Contact">Contact</a>
-        <a href="/Order">
-        <button className="primary-button">Order Here</button>
-        </a>
+        {menuOptions.map((item) => (
+          <a key={item.text} href={item.href} onClick={() => handleSmoothScroll(item.href)}>
+            {item.text}
+          </a>
+        ))}
+        <button className="primary-button" onClick={() => handleSmoothScroll("#order")}>
+          Order Here
+        </button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -69,7 +85,7 @@ const Navbar = () => {
           <List>
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
-                <ListItemButton>
+                <ListItemButton onClick={() => handleSmoothScroll(item.href)}>
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
                 </ListItemButton>

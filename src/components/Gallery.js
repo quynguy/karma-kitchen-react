@@ -19,7 +19,7 @@ const Gallery = () => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
     };
     return (
-        <div className="gallery">
+        <div id="gallery" className="gallery">
           <button className="btn btn-left" onClick={prevImg}>&#10094;</button>
           <img className="gallery-img" src={`/images/${images[currentImageIndex]}`} alt="Gallery Image" />
           <button className="btn btn-right" onClick={nextImg}>&#10095;</button>

@@ -5,6 +5,9 @@
     font-family: 'Verdana, Geneva, Tahoma, sans-serif';
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .App {
     min-height: 100vh;
@@ -388,6 +391,7 @@ nav {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    font-size: 1.25rem;
 }
 
 .footer-logo-container {
@@ -398,6 +402,9 @@ nav {
     width: 150px; 
 }
 
+.footer-section-one {
+    margin-left: 6rem;
+}
 
 .footer-section-two {
     flex: 1;
@@ -414,7 +421,7 @@ nav {
 .footer-section-columns span {
     justify-content: space-evenly;
     margin-top: 0.25rem;
-    margin-left: 0.25rem;
+    margin-left: 2rem;
     font-weight: 600;
     color: #4c4c4c;
     cursor: pointer;
@@ -445,6 +452,7 @@ nav {
 
 .developer p {
     font-size: 1rem;
+    margin-left: 2rem;
 }
 
 

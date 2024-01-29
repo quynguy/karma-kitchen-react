@@ -3,7 +3,7 @@ import AboutBackgroundImage from './../assets/buddha-bowl-1.png';
 import { BsFillPlayCircleFill } from "react-icons/bs";
 const About = () => {
   return (
-    <div className="about-section-container">
+    <div id="about" className="about-section-container">
       <div className="about-background-image-container">
         <img src={AboutBackgroundImage} alt="karma-kitchen-buddha-bowl" />
       </div>
