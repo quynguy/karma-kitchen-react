@@ -7,9 +7,9 @@ const Testimonial = () => {
   return (
     <div id="testimonials" className="testimonial-section-wrapper">
       <div className="testimonial-section-top">
-        <p className="primary-subheading"> Testimonial </p>
-        <h1 className="primary-heading"> What they are saying </h1>
-        <p className="primary-text">
+        <p className="testimonial-primary-subheading"> Testimonial </p>
+        <h1 className="testimonial-primary-heading"> What they are saying </h1>
+        <p className="testimonial-primary-text">
         Here's a recent review from one of our clients sharing their experience.
         </p> 
       </div>

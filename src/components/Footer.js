@@ -40,7 +40,6 @@ const Footer = () => {
           <div className="social-icons">
           <span><BsTwitter /></span>
           <span><SiLinkedin /></span>
-          <span><BsYoutube /></span>
           <span><FaFacebookF /></span>
           </div>
       

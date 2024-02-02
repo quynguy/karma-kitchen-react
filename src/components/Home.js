@@ -12,19 +12,16 @@ const Home = () => {
           {/* <img src={BannerBackground} alt="" /> */}
         </div>
         <div className="home-text-section">
-          <p className="primary-subheading">Welcome</p>
-          <h1 className="primary-heading">
+          <p className="home-primary-subheading">Welcome</p>
+          <h1 className="home-primary-heading">
           Bursting with flavor and designed to delight every guest.
           </h1>
-          <p className="primary-text">
+          <p className="home-primary-text">
           Elevate your party experience with Karma Kitchen's customizable Buddha bowls, crafted with love and served with good karma.  
           </p>
-          <button className="secondary-button">
+          <button className="home-secondary-button">
             Order Now <FiArrowRight />{" "}
           </button>
-        </div>
-        <div className="home-image-section">
-          <img src={HomeBanner} alt="" />
         </div>
       </div>
     </div>

@@ -26,10 +26,13 @@ const Work = () => {
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Steps</p>
-        <h1 className="primary-heading">How it works</h1>
-        <p className="primary-text">
-          Simply select your preferred Buddha Bowl options and place your order online or by phone, customizing it to your liking for your event. We'll take care of the rest, ensuring a seamless catering experience tailored to your needs.
+        <p className="work-primary-subheading">Steps</p>
+        <h1 className="work-primary-heading">How it works</h1>
+        <p className="work-primary-text">
+          Simply select your preferred Buddha Bowl options and place your order online or by phone, customizing it to your liking for your event. 
+        </p>
+        <p className="work-primary-text">
+        We'll take care of the rest, ensuring a seamless catering experience tailored to your needs.
         </p>
       </div>
       <div className="work-section-bottom">

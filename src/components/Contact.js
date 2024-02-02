@@ -7,7 +7,7 @@ const Contact = () => {
       <h1 className="primary-heading">Let Us Help You</h1>
       <div className="contact-form-container">
         <input type="text" placeholder="yourmail@gmail.com" />
-        <button className="secondary-button">Submit</button>
+        <button className="contact-secondary-button">Submit</button>
       </div>
       <div className="questions">
       <p> We aim to respond to your inquiry within 48 hours of receiving it. </p>
